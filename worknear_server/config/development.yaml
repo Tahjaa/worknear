@@ -1,0 +1,46 @@
+# This is the configuration file for your local development environment.
+
+apiServer:
+  port: 8080
+  publicHost: localhost
+  publicPort: 8080
+  publicScheme: http
+
+insightsServer:
+  port: 8081
+  publicHost: localhost
+  publicPort: 8081
+  publicScheme: http
+
+webServer:
+  port: 8082
+  publicHost: localhost
+  publicPort: 8082
+  publicScheme: http
+
+database:
+  host: localhost
+  port: 8090
+  name: worknear
+  user: postgres
+  dataPath: .serverpod/development/pgdata
+
+redis:
+  enabled: false
+  host: localhost
+  port: 8091
+
+maxRequestSize: 524288
+
+sessionLogs:
+  persistentEnabled: true
+  consoleEnabled: true
+  consoleLogFormat: text
+
+authCookie:
+  secure: false
+  sameSite: lax
+
+allowedOrigins:
+  - http://localhost:5000
+  - http://127.0.0.1:5000

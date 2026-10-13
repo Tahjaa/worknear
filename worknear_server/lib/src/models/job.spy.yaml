@@ -1,0 +1,15 @@
+class: Job
+table: job
+fields:
+  companyId: int, relation(parent=company, onDelete=Cascade)
+  title: String
+  description: String
+  category: String
+  jobType: String
+  salary: String?
+  experienceRequired: String?
+  studentsAllowed: bool
+  latitude: double?
+  longitude: double?
+  createdAt: DateTime
+  isActive: bool

@@ -1,0 +1,15 @@
+
+class: ApplicationJobDetails
+fields:
+  applicationId: int?
+  jobId: int?
+  title: String
+  description: String
+  category: String
+  jobType: String
+  salary: String?
+  experienceRequired: String?
+  studentsAllowed: bool
+  companyName: String
+  status: String
+  appliedAt: DateTime

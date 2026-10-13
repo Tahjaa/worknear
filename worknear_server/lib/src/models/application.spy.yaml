@@ -1,0 +1,10 @@
+class: Application
+table: application
+fields:
+  jobId: int
+  authUser: module:serverpod_auth_core:AuthUser?, relation(onDelete=Cascade)
+  status: String
+  appliedAt: DateTime
+indexes:
+  application_auth_user_idx:
+    fields: authUserId

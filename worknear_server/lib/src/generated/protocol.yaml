@@ -1,0 +1,26 @@
+application:
+  - applyForJob:
+  - getMyApplications:
+  - getApplicantsForJob:
+  - updateApplicationStatus:
+emailIdp:
+  - login:
+  - startRegistration:
+  - verifyRegistrationCode:
+  - finishRegistration:
+  - startPasswordReset:
+  - verifyPasswordResetCode:
+  - finishPasswordReset:
+  - hasAccount:
+jwtRefresh:
+  - refreshAccessToken:
+greeting:
+  - hello:
+job:
+  - getJobs:
+  - createJob:
+  - getMyJobs:
+  - updateJob:
+  - closeJob:
+  - reopenJob:
+  - getMyApplicationJobDetails:
